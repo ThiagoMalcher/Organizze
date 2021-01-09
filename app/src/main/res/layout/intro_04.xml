@@ -13,14 +13,14 @@
         android:layout_marginTop="150dp"
         android:layout_gravity="center"
 
-        app:srcCompat="@drawable/first" />
+        app:srcCompat="@drawable/fourth" />
 
     <TextView
         android:id="@+id/textViewIntro01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text='Control your money \n in the palm of your hand.'
+        android:text='Everything organized, on your smartphone and computer.'
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="18sp"
@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text='Simple, easy to use and free.'
+        android:text='Access by smartphone and your computer.'
         android:textAlignment="center"
         android:textColor="@android:color/darker_gray"
         android:textSize="12sp"
