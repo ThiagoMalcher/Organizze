@@ -14,14 +14,14 @@
         android:text="Create your count free"
         android:textAlignment="center"
         android:textColor="@android:color/darker_gray"
-        app:layout_constraintBottom_toTopOf="@+id/editTextName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextRegisterName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <EditText
-        android:id="@+id/editTextName"
+        android:id="@+id/editTextRegisterName"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
@@ -30,13 +30,13 @@
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+        app:layout_constraintBottom_toTopOf="@+id/editTextRegisterEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewregister" />
 
     <EditText
-        android:id="@+id/editTextEmail"
+        android:id="@+id/editTextRegisterEmail"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
@@ -45,24 +45,24 @@
         android:ems="10"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/editTextRegisterPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextRegisterName" />
 
     <EditText
-        android:id="@+id/editTextPassword"
+        android:id="@+id/editTextRegisterPassword"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_gray_lock_24"
         android:drawablePadding="5dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/btnRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextRegisterEmail" />
 
     <Button
         android:id="@+id/btnRegister"
@@ -75,7 +75,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextRegisterPassword" />
 
     <TextView
         android:id="@+id/textView5"

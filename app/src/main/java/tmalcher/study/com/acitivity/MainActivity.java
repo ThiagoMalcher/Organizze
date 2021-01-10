@@ -1,4 +1,4 @@
-package tmalcher.study.com;
+package tmalcher.study.com.acitivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,7 @@ import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
 import com.heinrichreimersoftware.materialintro.slide.SimpleSlide;
 
+import tmalcher.study.com.R;
 import tmalcher.study.com.acitivity.LoginActivity;
 import tmalcher.study.com.acitivity.SignupActivity;
 
